@@ -3,55 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Evilyn</title>
-    <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio do Jociel</title>
 </head>
 <body>
-     
+
     <header>
-        <div> <span class="simbolo-logo"> < </span> dev.portifolio <span class=""simbolo-logo> /> </span> </div>
+        <!-- &lt lesser than(menor que)  e &gt greater than (maior que) -->
+        <div class="logo"> <span class="simbolo-logo"> &lt; </span> dev.portfólio <span  class="simbolo-logo"> /&gt; </span> </div>
 
-  <nav>
-    <ul>
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#ferramentas">Ferramentas</a></li>
-        <li><a href="#contato">Contato</a></li>    
-    </ul>
- </nav>
- 
- <div class="icone-login">
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-solid fa-circle-user"></i>
- </div> 
+        <nav>
+            <ul>
+                <li><a href="#inicio"> Início </a></li>
+                <li><a href="#sobre"> Sobre </a></li>
+                <li><a href="#projetos"> Projetos </a></li>
+                <li><a href="#ferramentas"> Ferramentas </a></li>
+                <li><a href="#contato"> Contato </a></li>
+            </ul>
+        </nav>
+
+        <div class="icone-login">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
     </header>
-  
-   <main>
-    <section class="area inicio">
-        <div class="area-texto">
-            <h1>Olá mundo! Sou a <span class="nome-destaque">Evilyn</span>, aluna do curso desenvolvimento de sistemas do SENAC</h1>
-            <p>Esta landing page é um projeto desenvolvido em sala com meus colegas de turma e professor, utilizando HTML, CSS e JavasScript. Cada linha reflete a persistência e dedicação que colocamos em nosso aprendizado, e estou animada para compartilhar com vocês o resultado do nosso trabalho em equipe.</p>
-        
-        <div class="botoes iniciais">
-            <a href="#projetos"> <i class="fa-regular fa-eye"></i> Ver Meu Projetos</a>
-            <a href="#github"> <i class="fa-brands fa-github"></i> Meu GitHub</a>
+
+    <main>     
+        <section class="area-inicio">
+            <div class="area-texto">
+                <h1>Olá Mundo! Sou a <span class="nome-destaque">Evilyn</span>, aluna do Senac de Desenvolvimento de Sistemas.</h1>
+                <p>Esta landing page é um projeto desenvolvido em sala com meus colegas de turma e professor, utilizando HTML, CSS e JavasScript. Cada linha reflete a persistência e dedicação que colocamos em nosso aprendizado, e estou animada para compartilhar com vocês o resultado do nosso trabalho em equipe.</p>
+
+                <div class="botoes-iniciais">
+                    <a href="#projetos" class="btn-ver-projetos"> <i class="fa-regular fa-eye"></i> Ver Meus Projetos</a>
+                    <a href="#github" class="btn-github"> <i class="fa-brands fa-github"></i> Meu GitHub</a>
+                </div>
+
+                <div class="card-foco">
+                    <div class="icone-foco">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+
+                <div>
+                    
+                    <p class="foco-atual"> <i class="fa-solid fa-laptop-code"></i> <span>FOCO ATUAL</span> - Flexbox, Grid & Semântica</p>
+                    <p>Construindo consistência diária no código e refinando alinhamentos visuais na tela.</p>
+                </div>
+            </div>
+
+            </div>
+
+            <img class="area-imagem" src="cachorrin.jpg" alt="cachorrinho fofo">
+        </section>
+
+        <section class="minha-jornada">
+            <div class="titulo-minha-jornada">
+                <span>MINHA JORNADA</span>
+                <h2>O que aprendi até agora</h2>
+                <p>Passo a Passo, consolidando as bases web para constuir páginas agradáveis e funcionais.</p>
+            </div>
+
+        <div class="cards">
+            <div class="card-html">
+                <div class="topo-card">
+                    <span class="icon-html">HTML</span>
+                    <span class="Fase 1">Fase 1</span>
+                </div>
+                <h3> HTML Semântico </h3>
+                <p>Uso de tags corretas com &lt;main&gt;, &lt;article&gt;, estruturação de cabeçalhos e formulários acessíveis com labels claras e semântica pura.</p>
+
+                <div class="barra-card">
+                    <i clas="fa-regular fa-circle-check"></i> <span>Fundação Dominada</span>
+                </div>
+
+
         </div>
+
+
+
+
+        </section>
+    </main>
     
-        <div>
-            <i class="fa-solid fa-laptop-code"></i>
-            <p class="foco atual"><span>FOCO ATUAL</span> - FlexBox, Grid & Semântica</p>
-            <p>Construindo consistência diário no código e refinando alinhamentos visuais na tela.</p>
-        </div>
-    </div>
-
-    <img class="area-imagem" src="cachorrin.jpg" alt="img de cachorrinho">
-
-
-</section>
-   </main>
-
-
 </body>
 </html>

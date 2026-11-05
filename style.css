@@ -1,17 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+body{
+    
+    background-color: #ffffff;
 }
 
 header{
-    background-color: #500404;
-    height: 8vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 80px;
-
+   background-color: #e9e9f9;
+   height: 8vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 80px;
 }
 
 ul{
@@ -20,9 +29,10 @@ ul{
     gap: 40px;
 }
 
+
 a{
     text-decoration: none;
-    color: white;
+    color: #a03232;
 }
 
 .logo{
@@ -30,45 +40,136 @@ a{
 }
 
 .simbolo-logo{
-    color:#fff
+
+    color: #5a0b16;
 }
 
-icone-login i{
-    color:#fff;
+.icone-login i{
+    color: #5a0b16;
     font-size: 2rem;
     margin-left: 15px;
 }
 
 main{
-    padding: 80px;
+    padding:  50px 150px; 
 }
 
-h1{
+
+h1 {
     font-size: 4rem;
 }
 
 .area-inicio{
     display: flex;
-    gap: 10vw; 
+    gap: 10vw;
 }
 
-.area.imagem{
-    width: 30vh;
+.area-imagem{
+    width: 30vw;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #5a0b16;
+
 }
 
 .nome-destaque{
     font-size: 4rem;
-    color:#500404
+    color: #5a0b16;
+}
+
+.botoes-iniciais{
+    margin: 50px 0px;
 }
 
 .btn-ver-projetos{
-    background-color:#500404;
-    color:#fff;
+    background-color: #5a0b16;
+    color: #FFF;
     padding: 15px;
     border-radius: 10px;
     margin-right: 20px;
 }
 
 .btn-github{
-    
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #5a0b16;
+}
+
+.card-foco{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 0 10px #5a0b16;
+
+}
+
+.card-foco i, span{
+    color: #5a0b16; 
+    font-weight: 700;
+}
+
+.card.foco p{
+    margin-bottom: 10px;
+
+}
+
+.icone-foco{
+    background-color: var(--cor-fundo-icone);
+    padding: 15px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.minha-jornada{
+    margin-top: 100px;
+}
+
+.titulo-minha-jornada{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px;
+}
+
+.titulo-minha-jornada span{
+    background-color: var(--cor-fundo-icone);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.titulo-minha-jornada h2{
+    font-size: 2.5rem;
+}
+
+.titulo-minha-jornada p{
+    font-size: 1.3rem;
+}
+
+.card-html{
+    background-color: var(--cor-fundo);
+    padding: 50px;
+    max-width: 33%;
+    border-radius: 10px;
+}
+
+.topo-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-html{
+    background-color: var(--cor-fundo-icone);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.fase-1{
+    background-color: #5a0b16;   
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
 }
