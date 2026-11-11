@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <title>Portfólio do Jociel</title>
+    <title>Portfólio da Evilyn</title>
 </head>
 <body>
 
@@ -24,68 +25,236 @@
         </nav>
 
         <div class="icone-login">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-solid fa-circle-user"></i>
+            <a href="https://github.com/ifsbibi" target="_blank" rel="noopener"> <i class="fa-brands fa-github"></i> </a>
+            <a href="#conta"> <i class="fa-solid fa-circle-user"></i> </a>
         </div>
     </header>
 
-    <main>     
+    <main id="inicio">     
         <section class="area-inicio">
             <div class="area-texto">
                 <h1>Olá Mundo! Sou a <span class="nome-destaque">Evilyn</span>, aluna do Senac de Desenvolvimento de Sistemas.</h1>
-                <p>Esta landing page é um projeto desenvolvido em sala com meus colegas de turma e professor, utilizando HTML, CSS e JavasScript. Cada linha reflete a persistência e dedicação que colocamos em nosso aprendizado, e estou animada para compartilhar com vocês o resultado do nosso trabalho em equipe.</p>
+                <p>Esta landing page é um projeto desenvolvido em sala com meus colegas de turma e professor, utilizando HTML, CSS e JavasScript. Cada linha reflete a persistência e dedicação que colocamos em nosso aprendizado, e estou animada para compartilhar com vocês o resultado do nosso trabalho em equipe</p>
 
                 <div class="botoes-iniciais">
                     <a href="#projetos" class="btn-ver-projetos"> <i class="fa-regular fa-eye"></i> Ver Meus Projetos</a>
-                    <a href="#github" class="btn-github"> <i class="fa-brands fa-github"></i> Meu GitHub</a>
+                    <a  href="https://github.com/ifsbibi" target="_blank" rel="noopener" class="btn-github"> <i class="fa-brands fa-github"></i> Meu GitHub</a>
                 </div>
 
                 <div class="card-foco">
                     <div class="icone-foco">
-                        <i class="fa-solid fa-laptop-code"></i>
+                         <i class="fa-solid fa-laptop-code"></i>
                     </div>
-
-
-                <div>
-                    
-                    <p class="foco-atual"> <i class="fa-solid fa-laptop-code"></i> <span>FOCO ATUAL</span> - Flexbox, Grid & Semântica</p>
-                    <p>Construindo consistência diária no código e refinando alinhamentos visuais na tela.</p>
+                   
+                    <div>
+                        <p class="foco-atual">  <span>FOCO ATUAL</span>  Flexbox, Grid & Semântica</p>
+                        <p>Construindo consistência diária no código e refinando alinhamentos visuais na tela.</p>
+                    </div>
                 </div>
             </div>
 
-            </div>
-
-            <img class="area-imagem" src="cachorrin.jpg" alt="cachorrinho fofo">
+            <img class="imagem-principal" src="cachorrin.jpg" alt="Area do cachorrinho">
         </section>
 
-        <section class="minha-jornada">
-            <div class="titulo-minha-jornada">
+        <section class="minha-jornada" id="sobre">
+
+            <div class="titulo">
                 <span>MINHA JORNADA</span>
                 <h2>O que aprendi até agora</h2>
-                <p>Passo a Passo, consolidando as bases web para constuir páginas agradáveis e funcionais.</p>
+                <p>Passo a passo, consolidando as bases web para construir paginas acessíveis agradáveis</p>
             </div>
 
-        <div class="cards">
-            <div class="card-html">
-                <div class="topo-card">
-                    <span class="icon-html">HTML</span>
-                    <span class="Fase 1">Fase 1</span>
+            <div class="cards">
+                <div class="card-html">
+                    <div class="topo-card">
+                        <i class="fa-solid fa-code icon-html"></i>
+                        <span class="fase-1"> Fase 1</span>
+                    </div>
+                    <h3> HTML Semântico </h3>
+                    <p>Uso de tags corretas como &lt;main&gt;, &lt;article&gt;, estruturação de cabeçalhos e formulários acessíveis com labels claras e semântica pura.</p>
+
+                    <div class="barra-card barra-html">
+                        <i class="fa-regular fa-circle-check"></i> <span>Fundação Dominada</span>
+                    </div>
                 </div>
-                <h3> HTML Semântico </h3>
-                <p>Uso de tags corretas com &lt;main&gt;, &lt;article&gt;, estruturação de cabeçalhos e formulários acessíveis com labels claras e semântica pura.</p>
 
-                <div class="barra-card">
-                    <i clas="fa-regular fa-circle-check"></i> <span>Fundação Dominada</span>
+                <div class="card-html">
+                    <div class="topo-card">
+                        <i class="fa-brands fa-css3 icon-css"></i>
+                        <span class="em-pratica">Em prática</span>
+                    </div>
+                    <h3> CSS Moderno </h3>
+                    <p>Entendimento completo do Modelo de Caixas (Box Model), seletores específicos, variáveis nativas (Custom Properties), tipografia balanceada e contrastes seguros.</p>
+
+                    <div class="barra-card barra-css">
+                        <i class="fa-solid fa-rotate"></i> <span>Exercícios em andamento</span>
+                    </div>
+                </div>
+                <div class="card-html">
+                    <div class="topo-card">
+                        <span class="material-symbols-outlined icon-responsivo">devices</span>
+                        <span class="conceito"> Conceito</span>
+                    </div>
+                    <h3> Design Responsivo </h3>
+                    <p>Criação de interfaces que se adaptam naturalmente a telas de smartphones, tablets e notebooks por meio de flexbox e media queries fluidas.</p>
+
+                    <div class="barra-card barra-responsivo">
+                        <i class="fa-regular fa-clock"></i> <span>Proximas metas</span>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="area-reflexao">
+                <i class="fa-regular fa-lightbulb"></i><span>REFLEXÃO DO APRENDIZADO</span>
+                <h3> "A transição para tecnologia me ensinou que errar a sintaxe faz parte do processo.
+                     Cada erro no console é apenas uma oportunidade de entender a web mais a fundo."</h3>
+                <div class="area-autor">
+                    <div class="logo-autor">EB</div>
+                    <div class="nome-autor">
+                        <h4>Evilyn Batista</h4>
+                        <p> Aluna de desenvolvimento de sistemas</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+          <section class="trabalhos-iniciais" id="projetos">
+
+            <div class="titulo">
+                <span>TRABALHOS INICIAIS</span>
+                <h2>Projetos & Experimentos</h2>
+                <p>Resultados reais dos exercícios propostos neste primeiro módulo de aprendizado.</p>
+            </div>
+
+            <div class="cards cards-trabalhos">
+                <div class="card-html card-html-trabalhos">
+                    <div class="area-imagem atividade-1">   
+                         <span>Atividade #01</span>
+                    </div>
+                    <div class="topo-card topo-card-trabalhos">
+                        <span class="tags">HTML5</span>
+                        <span class="tags tag-azul"> CSS3 Puro</span>
+                    </div>
+                    <h3> Landing Page Pessoal </h3>
+                    <p>Meu primeiro desafio individual: estruturação semântica limpa, hierarquia de títulos rigorosa e estilização customizada sem frameworks.</p>
+
+                    <div class="barra-card barra-card-demo">
+                         <span id="demo-ao-vivo"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo ao vivo</span>
+                         <span id="ver-codigo"> <i class="fa-solid fa-code"></i> Ver código</span>
+                    </div>
                 </div>
 
+                <div class="card-html card-html-trabalhos">
 
-        </div>
+                     <div class="area-imagem atividade-2">   
+                         <span>Atividade #02</span>
 
+                    </div>
+                    <div class="topo-card topo-card-trabalhos" >
+                        <span class="tags tag-verde">Acessibilidade</span>
+                        <span class="tags"> Forms HTML5</span>
+                    </div>
+                    <h3>Formulário de Cadastro Acessível</h3>
+                    <p>Campos estilizados com foco explícito em usabilidade, contraste de cores e validações visuais com mensagens nativas do navegador.</p>
 
+                    <div class="barra-card barra-card-demo">
+                        <span id="demo-ao-vivo"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Demo ao vivo</span>
+                         <span id="ver-codigo"> <i class="fa-solid fa-code"></i> Ver código</span>
+                    </div>
+                </div>
+                <div class="card-html card-html-trabalhos">
 
+                     <div class="area-imagem atividade-3">   
+                        <span>Atividade #03</span>
+                    </div>
+                     <div class="topo-card topo-card-trabalhos">
+                        <span class="tags tag-azul">CSS Flexbox</span>
+                        <span class="tags ">Micro-layouts</span>
+                    </div>
+                    <h3>Clone de Card de Produto</h3>
+                    <p>Exercício prático de hierarquia visual, espaçamento de elementos internos e sombras sutis utilizando as propriedades de Flexbox.</p>
+
+                    <div class="barra-card barra-card-demo">
+                       <span id="demo-ao-vivo" > <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo ao vivo</span>
+                         <span id="ver-codigo"> <i class="fa-solid fa-code"></i> Ver código</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="area-ferramentas" id="ferramentas">
+            <div class="titulo">
+                <span>AMBIENTE DE TRABALHO</span>
+                <h2>Ferramentas no meu dia a dia</h2>
+                <p>O kit básico que me acompanha em todas as sessões de estudo e codificação.</p>
+            </div>
+
+            <div class="ferramentas">
+                <div class="card-ferramentas">
+                    <i class="fa-solid fa-code"></i>
+                    <h5>VS Code</h5>
+                    <p>Editor principal</p>
+                    <span>Extensão live server</span>
+                </div>
+
+                <div class="card-ferramentas">
+                    <i class="fa-solid fa-code-commit" id="icon-git"></i>
+                    <h5>Git Básico</h5>
+                    <p>Commits e branchs</p>
+                    <span>Controle de versão no terminal</span>
+                </div>
+
+                <div class="card-ferramentas">
+                    <i class="fa-solid fa-pen-ruler" id="icon-figma"></i>
+                    <h5>Figma</h5>
+                    <p>Medidas e Layouts</p>
+                    <span>Espaçamento & cores</span>
+                </div>
+           
+                <div class="card-ferramentas">
+                    <i class="fa-solid fa-bug"></i>
+                    <h5>DevTools</h5>
+                    <p>Inspecionar CSS</p>
+                    <span>Depuração e testes</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="vamos-conversar" id="contato">
+            <i class="fa-regular fa-comment-dots"></i>
+            <h2>Vamos conversar?</h2>
+            <p>Quer trocar uma ideia sobre os estudos de front-end, dar dicas para uma iniciante ou simplesmente acompanhar meus projetos?</p>
+
+              <div class="area-contatos">
+                <div class="card-contato">
+                   <div id="forma-contato"><i class="fa-regular fa-envelope"></i>E-mail</div>
+                    <p>evilyngabrielly05@gmail.com</p>
+                    <span id="link-contato"><i class="fa-regular fa-copy"></i> copiar e-mail</span>
+                </div>
+
+                <div class="card-contato">
+                   <div id="forma-contato"><i class="fa-brands fa-linkedin"></i></i>Linkedin</div>
+                   <p>evilynbatista</p>
+                    <a id="link-contato" href="https://www.linkedin.com/in/evilyn-gabrielly-449857350/" target="_blank">conectar<span class="material-symbols-outlined">arrow_outward</span></a>
+                </div>
+
+                <div class="card-contato">
+                   <div id="forma-contato"><i class="fa-brands fa-github"></i>GitHub</div>
+                   <p>@ifsbibi</p>
+                    <a id="link-contato" href="https://github.com/ifsbibi" target="_blank">seguir perfil <span class="material-symbols-outlined"> arrow_outward</span></a>
+                </div>
+            </div>
+            
 
         </section>
     </main>
     
+    <footer>
+        <p> Evilyn - Primeiro Projeto HTML & CSS</p>
+        <p>&copy; 2026 Evilyn. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
