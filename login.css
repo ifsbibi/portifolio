@@ -1,0 +1,14 @@
+@import url(style.css);
+
+main{
+    background-image: url(https://i.pinimg.com/1200x/74/25/94/742594060f067f5258d04e345122b956.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#area.formulario{
+    box-shadow: 0 5px 20px
+
+}
