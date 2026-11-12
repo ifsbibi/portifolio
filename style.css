@@ -374,6 +374,7 @@ p {
     box-shadow: none;
     border-radius: 10px 10px 0 0 ;
     background-repeat: no-repeat;
+    padding-top: 20px;
 
 }
 
@@ -397,9 +398,7 @@ p {
     background-color: var(--cor-principal);
     padding: 10px 15px;
     border-radius:10px;
-    position: relative;
-    left: 62%;
-    top: 10%;
+    margin-left: 62%;
 }
 
 .card-html-trabalhos h3, .card-html-trabalhos
